@@ -1,0 +1,190 @@
+.navbar{
+    background-color: #e4962f; /* Dark blue background */
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(171, 17, 17, 0.1);
+}
+
+.navbar-brand {
+    color: #a90c0c;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+/* Product Section Styling */
+.product-section {
+    background-color: #2398cac3; /* Light background color */
+    padding: 60px 0;
+}
+
+.product-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+/* Product Card Styling */
+.card {
+    border: none; /* Remove default Bootstrap border */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Lift the card on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Ensures image is cropped to fit */
+}
+
+.card-title {
+    font-size: 1.4rem;
+    color: #00457C;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.shop-now {
+    background-color: #00457C;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.shop-now:hover {
+    background-color: #003366;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .product-section h2 {
+        font-size: 2rem;
+    }
+    .card-title {
+        font-size: 1.2rem;
+    }
+}
+
+/* Mobile-friendly adjustments */
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1.4rem;
+    }
+    
+    .product-section h2 {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
+    
+    .card-text {
+        font-size: 0.9rem;
+    }
+
+    .shop-now {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+
+    /* Adjust padding and margins for mobile */
+    .product-section {
+        padding: 40px 20px;
+    }
+}
+
+/* Ensuring footer text is responsive */
+.footer p {
+    font-size: 0.9rem;
+}
+
+.footer ul {
+    padding-top: 10px;
+    font-size: 0.8rem;
+}
+
+
+.about-us-section {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-section h2 {
+    color: #00457C;
+    font-weight: bold;
+}
+
+.about-us-section p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about-us-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-us-section ul li {
+    color: #333;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.about-us-section ul li::before {
+    content: "✔";
+    color: #00457C;
+    position: absolute;
+    left: 0;
+}
+
+.about-us-section .lead {
+    font-size: 1.2rem;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #333;
+    color: #ddd;
+    font-size: 0.9rem;
+}
+
+.footer h5 {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .footer .row > div {
+        margin-bottom: 20px;
+    }
+}
